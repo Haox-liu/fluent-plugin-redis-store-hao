@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
     gem.licenses    = ["Apache License Version 2.0"]
     gem.summary     = %q{Redis(zset/set/list/string/publish) output plugin for Fluentd}
     gem.description = %q{Redis(zset/set/list/string/publish) output plugin for Fluentd...}
-    gem.homepage    = "https://github.com/pokehanai/fluent-plugin-redis-store"
+    gem.homepage    = "https://github.com/hao7860286/fluent-plugin-redis-store-hao"
 
     gem.files         = `git ls-files`.split($\)
     gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
